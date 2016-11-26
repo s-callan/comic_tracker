@@ -10,3 +10,5 @@
     The role a person takes in the production of a comic, writer,
     pencils, colours, editor, etc. A person may have multiple roles,
     and these may change with different issues.
+*   Series
+    A collection of individual comics.
