@@ -4,7 +4,8 @@ A demo / experimental project for a web based comic tracker.
 
 This project has a number of reasons for existing:
 
-1.  To be a system to keep track of comics, those I have, those I used to have and those I want.
+1.  To be a system to keep track of comics, those I have, those I used 
+    to have and those I want.
 2.  A chance for me to learn JavaScript and web-server backend stuff.
 3.  In addition, it should be a demonstration of my development skills.
 

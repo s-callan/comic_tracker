@@ -15,13 +15,26 @@ class Role(Base):
     artist = relationship("Artist", back_populates="comics")
 
 
+class Series(Base):
+    __tablename__ = "series"
+    id = Column(Integer, primary_key=True)
+    title = Column(String)
+    comics = relationship("Comic", back_populates="series")
+    # start_date = Column(Date)
+    # end_date = Column(Date)
+
+
 class Comic(Base):
     __tablename__ = "comic"
     id = Column(Integer, primary_key=True)
+    series_id = Column(Integer, ForeignKey("series.id"), primary_key=True)
+    series = relationship("Comic", back_populates="comics")
+
     artists = relationship("Role", back_populates="comic")
 
     date = Column(Date)
     title = Column(String)
+    number = Column(Integer)
 
 
 class Artist(Base):
