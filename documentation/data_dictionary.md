@@ -1,5 +1,7 @@
 # Data Dictionary
 
+*   Comic
+    "Sequential art" in a reqular relese cycle.
 *   Comic book
     A single monthly issue of a comic.
 *   Variant
