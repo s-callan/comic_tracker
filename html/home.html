@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comic Tracker</title>
+</head>
+<body>
+<div name="login">
+    <form action="login" action="post">
+        <fieldset>
+            <legend>Login</legend>
+        Name: <input type="text" name="name"><br>
+        Password: <input type="password" name="password"><br>
+        <input type="submit" value="Login">
+        </fieldset>
+    </form>
+</div>
+<div name="search">
+    <p>Search</p>
+    <form action="search">
+    <fieldset>
+        <legend>Search</legend>
+        <input type="text" name="value">
+        <input type="text" list="search_type">
+        <datalist id="search_type">
+            <option value="Comic"/>
+            <option value="Artist"/>
+            <option value="Role"/>
+            <option value="Publisher"/>
+        </datalist>
+
+        <input type="submit" value="Search">
+    </fieldset>
+    </form>
+</div>
+<div name="comic1">
+    <img src="../documentation/WickedDivineCover.png"/><br>
+    <p>The Wicked and the Divine</p>
+    <p>Kieron Gillon</p>
+    <p>Jamie McKelive</p>
+</div>
+<div name="comic2">
+     <img src="../documentation/DrAphra.jpg"/>
+    <p>Doctor Aphra</p>
+    <p>Kieron Gillon</p>
+    <p>Kev Walker</p>
+</div>
+
+</body>
+</html>
